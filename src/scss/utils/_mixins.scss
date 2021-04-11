@@ -1,0 +1,15 @@
+/*Mixins*/
+@mixin flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin box-shadow {
+	box-shadow: 0 0 10px rgba(68, 68, 68, 0.6);
+}
+
+@mixin box-shadow-inset {
+	box-shadow: inset 0 0 10px rgba(68, 68, 68, 0.6);
+}
+
