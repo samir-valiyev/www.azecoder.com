@@ -12,4 +12,9 @@
 @mixin box-shadow-inset {
 	box-shadow: inset 0 0 10px rgba(68, 68, 68, 0.6);
 }
-
+@mixin bgc {
+	background-image: linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
+}
+@mixin bgcHover {
+	background-image: linear-gradient(225deg, var(--secondary-color) 15%, var(--primary-color) 65%);
+}

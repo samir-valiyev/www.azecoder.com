@@ -1,8 +1,8 @@
 .navbar__dropdown-menu {
 	background: red;
-	width: 200px;
+	width: 20rem;
 	position: absolute;
-	top: 50px;
+	top: 5rem;
 	list-style: none;
 	text-align: start;
 
@@ -31,6 +31,6 @@
 
 @media screen and (max-width: 960px) {
 	.fa-caret-down {
-		display: block;
+		display: none;
 	}
 }

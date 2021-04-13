@@ -1,24 +1,16 @@
-:root {
-	--primary: #1888ff;
-}
-
 .navbar__btn {
-	padding: 8px 20px;
-	border-radius: 4px;
+	padding: 0.8rem 2rem;
+	border-radius: 0.4rem;
 	outline: none;
 	border: none;
-	font-size: 18px;
-	color: #fff;
+	font-size: 1.8rem;
+	color: var(--white);
 	cursor: pointer;
-	background-color: var(--primary);
+	@include bgc;
+	margin-right: 10rem;
 
 	&:hover {
-		padding: 6px 18px;
-		transition: all 0.3s ease-out;
-		background-color: transparent;
-		color: #fff;
-		border-radius: 4px;
-		border: 2px solid var(--primary);
-		transition: all 0.3s ease-out;
+		@include bgcHover;
+		transition: all 1s ease-out;
 	}
 }
