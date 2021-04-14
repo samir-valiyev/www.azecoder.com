@@ -8,9 +8,20 @@
 	cursor: pointer;
 	@include bgc;
 	margin-right: 10rem;
+	font-family: $font-poppins;
+	text-transform: uppercase;
 
 	&:hover {
 		@include bgcHover;
 		transition: all 1s ease-out;
+	}
+}
+
+.navbar__right__side {
+	@include flex;
+
+	i {
+		margin-right: 1rem;
+		font-size: 2rem;
 	}
 }

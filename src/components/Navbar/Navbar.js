@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
 import Dropdown from "./Dropdown";
+import logo from "../../images/logo/logo.png";
 
 function Navbar() {
 	const [click, setClick] = useState(false);
@@ -11,7 +12,7 @@ function Navbar() {
 	const closeMobileMenu = () => setClick(false);
 
 	const onMouseEnter = () => {
-		if (window.innerWidth < 960) {
+		if (window.innerWidth < 992) {
 			setDropdown(false);
 		} else {
 			setDropdown(true);
@@ -19,7 +20,7 @@ function Navbar() {
 	};
 
 	const onMouseLeave = () => {
-		if (window.innerWidth < 960) {
+		if (window.innerWidth < 992) {
 			setDropdown(false);
 		} else {
 			setDropdown(false);
@@ -30,7 +31,7 @@ function Navbar() {
 		<>
 			<nav className="navbar">
 				<Link to="/" className="navbar__logo" onClick={closeMobileMenu}>
-					AzeCoder
+					<img src={logo} className="navbar__logo__azecoder" alt="AzeCoder Logo" />
 				</Link>
 				<div className="navbar__menu-icon" onClick={handleClick}>
 					<i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -38,7 +39,7 @@ function Navbar() {
 				<ul className={click ? "navbar__nav-menu active" : "navbar__nav-menu"}>
 					<li className="navbar__nav-item">
 						<Link to="/" className="navbar__nav-links" onClick={closeMobileMenu}>
-							Home
+							HOME
 						</Link>
 					</li>
 					<li
@@ -49,35 +50,41 @@ function Navbar() {
 							to="/services"
 							className="navbar__nav-links"
 							onClick={closeMobileMenu}>
-							Services <i className="fas fa-caret-down" />
+							SERVICES <i className="fas fa-caret-down" />
 						</Link>
 						{dropdown && <Dropdown />}
 					</li>
 					<li className="navbar__nav-item">
-						<Link
-							to="/products"
-							className="navbar__nav-links"
-							onClick={closeMobileMenu}>
-							Products
+						<Link to="/team" className="navbar__nav-links" onClick={closeMobileMenu}>
+							TEAM
 						</Link>
 					</li>
 					<li className="navbar__nav-item">
-						<Link
-							to="/contact-us"
-							className="navbar__nav-links"
-							onClick={closeMobileMenu}>
-							Contact Us
+						<Link to="/blog" className="navbar__nav-links" onClick={closeMobileMenu}>
+							BLOG
 						</Link>
 					</li>
+					<li className="navbar__nav-item">
+						<Link to="/careers" className="navbar__nav-links" onClick={closeMobileMenu}>
+							CAREERS
+						</Link>
+					</li>
+					<li className="navbar__nav-item">
+						<Link to="/about" className="navbar__nav-links" onClick={closeMobileMenu}>
+							ABOUT
+						</Link>
+					</li>
+
 					<li>
 						<Link
-							to="/sign-up"
+							to="/contact-us"
 							className="navbar__nav-links__mobile"
 							onClick={closeMobileMenu}>
-							Sign Up
+							CONTACT US
 						</Link>
 					</li>
 				</ul>
+
 				<Button />
 			</nav>
 		</>

@@ -1,42 +1,50 @@
 .navbar {
-	background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
 	height: 5rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	font-size: 1.6rem;
+	font-family: $font-poppins;
+	position: relative;
+	margin-top: 2rem;
+	// border: 1px solid red;
 
 	&__logo {
-		color: var(--secondary-color);
+		color: var(--text-color);
 		justify-self: start;
 		margin-left: 10rem;
 		cursor: pointer;
 		text-decoration: none;
 		font-size: 2rem;
+		@include flex;
+
+		img {
+			height: 2.5rem;
+		}
 	}
 
 	&__nav-menu {
 		display: grid;
-		grid-template-columns: repeat(5, auto);
-		grid-gap: 1rem;
+		grid-template-columns: repeat(7, auto);
 		list-style: none;
 		text-align: center;
+		font-weight: bold;
 	}
 
 	&__nav-item {
 		display: flex;
 		align-items: center;
-		height: 8rem;
+		height: 4rem;
 	}
 
 	&__nav-links {
-		color: white;
 		text-decoration: none;
 		padding: 0.5rem 1rem;
+		color: var(--text-color);
 	}
 
 	&__nav-links:hover {
-		background-color: #1888ff;
+		color: var(--primary-color);
 		border-radius: 0.4rem;
 		transition: all 0.2s ease-out;
 	}
@@ -51,10 +59,11 @@
 }
 
 .fa-bars {
-	color: #fff;
+	color: var(--black);
+	font-size: 2rem;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 992px) {
 	.NavbarItems {
 		position: relative;
 	}
@@ -73,7 +82,7 @@
 		}
 
 		&__nav-menu.active {
-			background: #242222;
+			background-color: var(--white);
 			left: 0;
 			opacity: 1;
 			transition: all 0.5s ease;
@@ -82,13 +91,14 @@
 
 		&__nav-links {
 			text-align: center;
-			padding: 2rem;
+			padding: 1rem;
 			width: 100%;
 			display: table;
 		}
 
 		&__nav-links:hover {
-			background-color: #1888ff;
+			background-color: var(--secondary-color);
+			color: var(--white);
 			border-radius: 0;
 		}
 
@@ -105,7 +115,7 @@
 			top: 0.3rem;
 			right: 0;
 			transform: translate(-100%, 60%);
-			font-size: 1.8rem;
+			font-size: 2rem;
 			cursor: pointer;
 		}
 
@@ -116,16 +126,15 @@
 			margin: 2rem auto;
 			border-radius: 4px;
 			width: 80%;
-			background: #1888ff;
+			@include bgc;
 			text-decoration: none;
-			color: #fff;
-			font-size: 1.5rem;
+			color: var(--white);
+			font-size: 2rem;
 		}
 
 		&__nav-links__mobile:hover {
-			background: #fff;
-			color: #1888ff;
-			transition: 250ms;
+			@include bgcHover;
+			color: var(--white);
 		}
 		& button {
 			display: none;
@@ -133,7 +142,7 @@
 	}
 
 	.fa-times {
-		color: #fff;
+		color: var(--crimson);
 		font-size: 2rem;
 	}
 }

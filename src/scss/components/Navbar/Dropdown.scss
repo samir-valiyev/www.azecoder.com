@@ -1,18 +1,13 @@
 .navbar__dropdown-menu {
-	background: red;
 	width: 20rem;
 	position: absolute;
-	top: 5rem;
+	top: 4rem;
 	list-style: none;
 	text-align: start;
+	@include box-shadow;
 
 	li {
-		background: #1888ff;
 		cursor: pointer;
-
-		&:hover {
-			background: #5cabff;
-		}
 	}
 
 	&.clicked {
@@ -25,8 +20,12 @@
 	height: 100%;
 	width: 100%;
 	text-decoration: none;
-	color: #fff;
-	padding: 16px;
+	color: var(--text-color);
+	padding: 1.6rem;
+
+	&:hover {
+		color: var(--primary-color);
+	}
 }
 
 @media screen and (max-width: 960px) {
