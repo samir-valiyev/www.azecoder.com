@@ -3,7 +3,12 @@ import { Link } from "react-router-dom";
 
 export function Button() {
 	const [theme, setTheme] = useState(false);
-	const changeTheme = () => setTheme(!theme);
+	const changeTheme = () => {
+		return document.body.classList.toggle("dark-mode");
+
+		// setTheme(!theme)
+	};
+
 	return (
 		<>
 			<div className="navbar__right__side">

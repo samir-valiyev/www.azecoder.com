@@ -31,6 +31,10 @@
 }
 
 .fa-sun {
-	color: var(--white);
-	// background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+	color: var(--black);
+	cursor: pointer;
+}
+.fa-moon {
+	cursor: pointer;
+	color: var(--black);
 }
