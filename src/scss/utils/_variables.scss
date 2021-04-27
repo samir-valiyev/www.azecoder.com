@@ -6,6 +6,7 @@
 	--primary-color: #5900ff;
 	--secondary-color: #8340ff;
 	--text-color: #2f323a;
+	--text-color2: #8e8e8e;
 	--crimson: crimson;
 }
 
@@ -15,8 +16,12 @@
 	--primary-color: #65ff00;
 	--secondary-color: #ceff1a;
 	--text-color: #f5f5f5;
+	--text-color2: #8e8e8e;
 }
 // colors ends
 
 // fonts
 $font-poppins: "Poppins", sans-serif;
+
+// margin
+$mt: 6rem;

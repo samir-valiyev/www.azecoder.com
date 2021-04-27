@@ -1,0 +1,37 @@
+.services__cards {
+	display: flex;
+	flex-wrap: wrap;
+
+	.services__card {
+		width: 36rem;
+		height: 31rem;
+		@include box-shadow;
+		@include flex;
+		flex-direction: column;
+		font-family: $font-poppins;
+		margin: 2rem;
+
+		.i-top {
+			font-size: 5rem;
+			color: var(--primary-color);
+		}
+
+		h4 {
+			font-size: 2rem;
+			color: var(--text-color);
+			margin: 2.4rem 0;
+		}
+
+		p {
+			margin: 2rem;
+			font-size: 1.62rem;
+			text-align: center;
+			color: var(--text-color2);
+		}
+		.i-bottom {
+			font-size: 3rem;
+			color: var(--secondary-color);
+			cursor: pointer;
+		}
+	}
+}

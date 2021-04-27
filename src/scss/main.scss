@@ -1,11 +1,19 @@
 @import "utils/_variables.scss";
 @import "utils/_mixins.scss";
+
 @import "base/_fonts.scss";
 @import "base/_base.scss";
 @import "base/_typography.scss";
 
 @import "components/index.scss";
 @import "components/App.scss";
+
 @import "components/Navbar/Navbar.scss";
 @import "components/Navbar/Dropdown.scss";
+
 @import "components/Button/Button.scss";
+
+@import "components/Card/Cards.scss";
+
+@import "./components/pages/Home.scss";
+@import "./components/pages/Services/Services.scss";
