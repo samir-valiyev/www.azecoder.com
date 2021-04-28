@@ -13,7 +13,7 @@ function Cards() {
 				iBottom={"fas fa-arrow-circle-right i-bottom"}
 			/>
 			<Card
-				iTop={"fas fa-globe i-top"}
+				iTop={"fas fa-shopping-bag i-top"}
 				h4={"E-Commerce"}
 				p={
 					"Increase your sales with an incredible online store, full of features and functionality."
@@ -21,7 +21,7 @@ function Cards() {
 				iBottom={"fas fa-arrow-circle-right i-bottom"}
 			/>
 			<Card
-				iTop={"fas fa-globe i-top"}
+				iTop={"fas fa-mobile-alt i-top"}
 				h4={"Mobile Apps"}
 				p={
 					"Follow the global trend and create your revolutionary mobile app built with the best technologies."
@@ -29,7 +29,7 @@ function Cards() {
 				iBottom={"fas fa-arrow-circle-right i-bottom"}
 			/>
 			<Card
-				iTop={"fas fa-globe i-top"}
+				iTop={"fas fa-laptop-code i-top"}
 				h4={"Web Application"}
 				p={
 					"We build applications for different purposes using technologies that allow you more security."
@@ -37,15 +37,15 @@ function Cards() {
 				iBottom={"fas fa-arrow-circle-right i-bottom"}
 			/>
 			<Card
-				iTop={"fas fa-globe i-top"}
-				h4={"Digital Marketingo"}
+				iTop={"fas fa-poll i-top"}
+				h4={"Digital Marketing"}
 				p={
 					"We work to promote your brand in partnership with the best marketing platforms today."
 				}
 				iBottom={"fas fa-arrow-circle-right i-bottom"}
 			/>
 			<Card
-				iTop={"fas fa-globe i-top"}
+				iTop={"fas fa-code-branch i-top"}
 				h4={"Brand Creation"}
 				p={
 					"We create your brand thinking about your target audience using design techniques.."

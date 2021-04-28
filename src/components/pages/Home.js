@@ -1,6 +1,5 @@
 import React from "react";
 import image from "../../images/hero-1.png";
-import video from "../../videos/ink.mp4";
 
 function Home() {
 	return (

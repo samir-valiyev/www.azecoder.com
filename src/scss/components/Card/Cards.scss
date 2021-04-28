@@ -1,10 +1,11 @@
 .services__cards {
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 
 	.services__card {
-		width: 36rem;
-		height: 31rem;
+		width: 30rem;
+		height: 35rem;
 		@include box-shadow;
 		@include flex;
 		flex-direction: column;
@@ -19,11 +20,11 @@
 		h4 {
 			font-size: 2rem;
 			color: var(--text-color);
-			margin: 2.4rem 0;
+			margin: 2rem 0;
 		}
 
 		p {
-			margin: 2rem;
+			margin: 0 2rem 2rem 2rem;
 			font-size: 1.62rem;
 			text-align: center;
 			color: var(--text-color2);

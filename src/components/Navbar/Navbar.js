@@ -1,31 +1,13 @@
 import React, { useState } from "react";
 import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
-import Dropdown from "./Dropdown";
 import logo from "../../images/logo/logo.png";
 
 function Navbar() {
 	const [click, setClick] = useState(false);
-	const [dropdown, setDropdown] = useState(false);
 
 	const handleClick = () => setClick(!click);
 	const closeMobileMenu = () => setClick(false);
-
-	const onMouseEnter = () => {
-		if (window.innerWidth < 992) {
-			setDropdown(false);
-		} else {
-			setDropdown(true);
-		}
-	};
-
-	const onMouseLeave = () => {
-		if (window.innerWidth < 992) {
-			setDropdown(false);
-		} else {
-			setDropdown(false);
-		}
-	};
 
 	return (
 		<>
@@ -42,17 +24,13 @@ function Navbar() {
 							HOME
 						</Link>
 					</li>
-					<li
-						className="navbar__nav-item"
-						onMouseEnter={onMouseEnter}
-						onMouseLeave={onMouseLeave}>
+					<li className="navbar__nav-item">
 						<Link
 							to="/services"
 							className="navbar__nav-links"
 							onClick={closeMobileMenu}>
-							SERVICES <i className="fas fa-caret-down" />
+							SERVICES
 						</Link>
-						{dropdown && <Dropdown />}
 					</li>
 					<li className="navbar__nav-item">
 						<Link to="/team" className="navbar__nav-links" onClick={closeMobileMenu}>

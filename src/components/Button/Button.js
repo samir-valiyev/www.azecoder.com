@@ -13,7 +13,7 @@ export function Button() {
 		<>
 			<div className="navbar__right__side">
 				<div className="navbar__light-dark-mode" onClick={changeTheme}>
-					<i className={theme ? "fas fa-sun" : "fas fa-moon"} />
+					<i className={theme ? "fas fa-moon" : "fas fa-sun"} />
 				</div>
 				<Link to="contact-us">
 					<button className="navbar__btn">CONTACT US</button>
