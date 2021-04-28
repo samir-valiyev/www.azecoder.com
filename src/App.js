@@ -7,7 +7,7 @@ import Services from "./components/pages/Services/Services";
 import Team from "./components/pages/Team/Team";
 import Blog from "./components/pages/Blog";
 import Careers from "./components/pages/Careers";
-import About from "./components/pages/About";
+import About from "./components/pages/About/About";
 import ContactUs from "./components/pages/ContactUs";
 
 function App() {

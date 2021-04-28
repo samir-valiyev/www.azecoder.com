@@ -1,0 +1,53 @@
+.about {
+	display: flex;
+	font-family: $font-poppins;
+	margin-top: 12rem;
+	.about__texts {
+		h2 {
+			font-weight: bold;
+			font-size: 4rem;
+			margin-bottom: 3rem;
+			color: var(--primary-color);
+		}
+		.about__text {
+			font-size: 1.6rem;
+			margin-bottom: 2rem;
+
+			color: var(--text-color2);
+		}
+	}
+
+	.about__properties {
+		.about__property {
+			display: flex;
+			align-items: center;
+
+			i {
+				@include flex;
+				width: 5rem;
+				height: 5rem;
+				font-size: 3rem;
+				color: var(--primary-color);
+				margin-right: 1rem;
+			}
+
+			.about__property__text {
+				color: var(--text-color2);
+			}
+			h4 {
+				font-size: 1.6rem;
+			}
+
+			p {
+				font-size: 1.2rem;
+			}
+		}
+	}
+
+	.about__img {
+		img {
+			width: 50rem;
+			border-radius: 5rem;
+		}
+	}
+}

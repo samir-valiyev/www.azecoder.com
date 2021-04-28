@@ -26,6 +26,9 @@
 	.main__image {
 		width: 50%;
 		@include flex;
+		img {
+			width: 80%;
+		}
 	}
 }
 
