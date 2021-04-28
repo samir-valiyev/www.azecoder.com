@@ -1,8 +1,10 @@
 .about {
 	display: flex;
+	justify-content: space-between;
 	font-family: $font-poppins;
 	margin-top: 12rem;
 	.about__texts {
+		margin-right: 2rem;
 		h2 {
 			font-weight: bold;
 			font-size: 4rem;
@@ -11,8 +13,7 @@
 		}
 		.about__text {
 			font-size: 1.6rem;
-			margin-bottom: 2rem;
-
+			margin-bottom: 8rem;
 			color: var(--text-color2);
 		}
 	}
@@ -21,6 +22,8 @@
 		.about__property {
 			display: flex;
 			align-items: center;
+
+			margin-top: 2rem;
 
 			i {
 				@include flex;
@@ -36,6 +39,7 @@
 			}
 			h4 {
 				font-size: 1.6rem;
+				margin-bottom: 1rem;
 			}
 
 			p {
@@ -46,8 +50,70 @@
 
 	.about__img {
 		img {
-			width: 50rem;
+			width: 100%;
 			border-radius: 5rem;
+		}
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.about {
+		display: flex;
+		flex-direction: column;
+		margin-top: 8rem;
+		.about__texts {
+			margin-right: 0rem;
+
+			h2 {
+				font-weight: bold;
+				font-size: 4rem;
+				margin-bottom: 3rem;
+				color: var(--primary-color);
+				text-align: center;
+			}
+			.about__text {
+				font-size: 1.4rem;
+				margin-bottom: 6rem;
+				text-align: center;
+				color: var(--text-color2);
+			}
+		}
+
+		.about__properties {
+			.about__property {
+				display: flex;
+				align-items: center;
+				margin-top: 2rem;
+
+				i {
+					@include flex;
+					width: 5rem;
+					height: 5rem;
+					font-size: 3rem;
+					color: var(--primary-color);
+					margin-right: 1rem;
+				}
+
+				.about__property__text {
+					color: var(--text-color2);
+				}
+				h4 {
+					font-size: 1.6rem;
+					margin-bottom: 1rem;
+				}
+
+				p {
+					font-size: 1.2rem;
+				}
+			}
+		}
+
+		.about__img {
+			margin-top: 4rem;
+			img {
+				width: 100%;
+				border-radius: 5rem;
+			}
 		}
 	}
 }
