@@ -1,0 +1,50 @@
+.team__member {
+	width: 20rem;
+	@include flex;
+	flex-direction: column;
+	margin: 2rem;
+	font-family: $font-poppins;
+	border-radius: 2rem;
+	@include box-shadow;
+	.team__member__img {
+		width: 15rem;
+		border-radius: 50%;
+		margin-top: 1rem;
+	}
+
+	.team__member__name {
+		margin: 2rem 0 0rem;
+		font-size: 1.8rem;
+		color: var(--text-color);
+	}
+
+	.team__member__profession {
+		color: var(--text-color);
+		font-size: 1.1rem;
+	}
+
+	.team__member__socials {
+		display: flex;
+		margin: 1rem 0;
+		i {
+			font-size: 2rem;
+			margin: 0.5rem;
+			cursor: pointer;
+		}
+
+		.fa-github-square {
+			color: #000000;
+		}
+		.fa-linkedin {
+			color: #0e76a8;
+		}
+
+		.fa-twitter-square {
+			color: #1c9cea;
+		}
+
+		.fa-facebook-square {
+			color: #1773ea;
+		}
+	}
+}

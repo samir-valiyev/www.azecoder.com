@@ -1,0 +1,10 @@
+.team {
+	@include flex;
+
+	flex-direction: column;
+
+	.team__members {
+		@include flex;
+		flex-wrap: wrap;
+	}
+}
