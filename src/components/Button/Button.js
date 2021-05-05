@@ -10,15 +10,18 @@ export function Button() {
 	};
 
 	return (
-		<>
+		<h2>
 			<div className="navbar__right__side">
 				<div className="navbar__light-dark-mode" onClick={changeTheme}>
-					<i className={theme ? "fas fa-moon" : "fas fa-sun"} />
+					<i
+						onClick={() => setTheme(!theme)}
+						className={theme ? "fas fa-sun" : "fas fa-moon"}
+					/>
 				</div>
 				<Link to="contact-us">
 					<button className="navbar__btn">CONTACT US</button>
 				</Link>
 			</div>
-		</>
+		</h2>
 	);
 }

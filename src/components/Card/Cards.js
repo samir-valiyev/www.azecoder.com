@@ -6,7 +6,7 @@ function Cards() {
 		<div className="services__cards">
 			<Card
 				iTop={"fas fa-globe i-top"}
-				h4={"Website Pro"}
+				h4={"Web Programming"}
 				p={
 					"We build professional responsive websites optimized for the most popular search engines."
 				}
@@ -45,10 +45,10 @@ function Cards() {
 				iBottom={"fas fa-arrow-circle-right i-bottom"}
 			/>
 			<Card
-				iTop={"fas fa-code-branch i-top"}
-				h4={"Brand Creation"}
+				iTop={"fas fa-shield-alt i-top"}
+				h4={"Cybersecurity"}
 				p={
-					"We create your brand thinking about your target audience using design techniques.."
+					"We create your Cybersecurity thinking about your target audience using design techniques.."
 				}
 				iBottom={"fas fa-arrow-circle-right i-bottom"}
 			/>
