@@ -1,0 +1,16 @@
+.azecoderteam {
+	@include flex;
+	flex-direction: column;
+	font-size: 5rem;
+	font-family: $font-luckiest-guy;
+	margin: 2rem;
+
+	.azecoderteam__white {
+		color: var(--black);
+	}
+	.azecoderteam__color {
+		color: var(--primary-color);
+	}
+}
+@media screen and (max-width: 768px) {
+}

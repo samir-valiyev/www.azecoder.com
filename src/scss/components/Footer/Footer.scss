@@ -1,0 +1,32 @@
+.footer {
+	@include box-shadow;
+
+	flex-wrap: wrap;
+	position: relative;
+	flex-direction: column;
+
+	.footer__top {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.footer__line {
+		height: 0.2rem;
+		width: 100%;
+		background-color: var(--black);
+		position: absolute;
+		bottom: 7rem;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.footer__top {
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 576px) {
+	.footer__line {
+		display: none;
+	}
+}

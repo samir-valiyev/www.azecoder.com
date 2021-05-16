@@ -1,0 +1,44 @@
+.footer__sections {
+	font-family: $font-poppins;
+	margin: 2rem;
+	flex-wrap: wrap;
+	display: flex;
+
+	.footer__section {
+		margin: 2rem;
+		display: flex;
+		flex-direction: column;
+		h4 {
+			font-size: 1.4rem;
+			color: var(--primary-color);
+			margin-bottom: 1.5rem;
+		}
+
+		ul {
+			li {
+				font-size: 1.2rem;
+				margin-bottom: 0.5rem;
+				color: var(--black);
+				transition: all 0.2s;
+
+				&:hover {
+					color: var(--primary-color);
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 992px) {
+	.footer__sections {
+		justify-content: center;
+		margin: 2rem;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 768px) {
+	.footer__sections {
+		justify-content: center;
+		margin: 2rem;
+		text-align: center;
+	}
+}

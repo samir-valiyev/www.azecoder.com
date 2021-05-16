@@ -1,0 +1,24 @@
+.main-technologies {
+	font-size: 1.6rem;
+
+	margin-bottom: 2rem;
+	@include box-shadow;
+	padding: 4rem 0 2rem;
+
+	font-family: $font-poppins;
+	.main-technologies__cards {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		.main-technology {
+			margin: 1rem 2rem;
+			@include flex;
+			flex-direction: column;
+			img {
+				width: 8rem;
+				height: 8rem;
+			}
+		}
+	}
+}

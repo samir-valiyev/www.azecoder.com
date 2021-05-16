@@ -1,0 +1,24 @@
+.footer__socials {
+	font-size: 3rem;
+
+	@include flex;
+	a {
+		color: var(--black);
+		i {
+			margin: 2rem;
+		}
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.footer__socials {
+		font-size: 2.5rem;
+		@include flex;
+		flex-wrap: wrap;
+		a {
+			i {
+				margin: 1rem;
+			}
+		}
+	}
+}

@@ -5,8 +5,6 @@ export function Button() {
 	const [theme, setTheme] = useState(false);
 	const changeTheme = () => {
 		return document.body.classList.toggle("dark-mode");
-
-		// setTheme(!theme)
 	};
 
 	return (

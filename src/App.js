@@ -5,10 +5,11 @@ import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Services from "./components/pages/Services/Services";
 import Team from "./components/pages/Team/Team";
-import Blog from "./components/pages/Blog";
+import Store from "./components/pages/Store";
 import Careers from "./components/pages/Careers";
 import About from "./components/pages/About/About";
 import ContactUs from "./components/pages/ContactUs";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 	return (
@@ -18,11 +19,12 @@ function App() {
 				<Route path="/" exact component={Home} />
 				<Route path="/services" component={Services} />
 				<Route path="/team" component={Team} />
-				<Route path="/blog" component={Blog} />
+				<Route path="/store" component={Store} />
 				<Route path="/careers" component={Careers} />
 				<Route path="/about" component={About} />
 				<Route path="/contact-us" component={ContactUs} />
 			</Switch>
+			<Footer />
 		</Router>
 	);
 }

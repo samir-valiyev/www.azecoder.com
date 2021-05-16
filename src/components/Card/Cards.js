@@ -6,7 +6,7 @@ function Cards() {
 		<div className="services__cards">
 			<Card
 				iTop={"fas fa-globe i-top"}
-				h4={"Web Programming"}
+				h4={"Web Development"}
 				p={
 					"We build professional responsive websites optimized for the most popular search engines."
 				}
@@ -22,9 +22,9 @@ function Cards() {
 			/>
 			<Card
 				iTop={"fas fa-mobile-alt i-top"}
-				h4={"Mobile Apps"}
+				h4={"Mobile Development"}
 				p={
-					"Follow the global trend and create your revolutionary mobile app built with the best technologies."
+					"We create fantastic mobile experiences bringing long-term advantages to your business."
 				}
 				iBottom={"fas fa-arrow-circle-right i-bottom"}
 			/>
@@ -38,17 +38,15 @@ function Cards() {
 			/>
 			<Card
 				iTop={"fas fa-poll i-top"}
-				h4={"Digital Marketing"}
-				p={
-					"We work to promote your brand in partnership with the best marketing platforms today."
-				}
+				h4={"Product Design"}
+				p={"Get a unique UI/UX design based on your ideas and user preferences"}
 				iBottom={"fas fa-arrow-circle-right i-bottom"}
 			/>
 			<Card
 				iTop={"fas fa-shield-alt i-top"}
-				h4={"Cybersecurity"}
+				h4={"Project Management"}
 				p={
-					"We create your Cybersecurity thinking about your target audience using design techniques.."
+					"We have many years of experience successfully managing projects ensuring that both budget estimates and the agreed timeline are met. "
 				}
 				iBottom={"fas fa-arrow-circle-right i-bottom"}
 			/>
