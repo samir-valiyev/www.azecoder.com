@@ -3,13 +3,13 @@
 }
 
 .item {
-	background-color: #f0ebe1;
+	background-color: var(--primary-color);
 	margin-bottom: 5px;
-	padding: 10px 20px;
+	padding: 1rem 2rem;
 }
 
 .title {
-	color: #85662b;
+	color: var(--white);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -17,13 +17,14 @@
 }
 
 .content {
-	color: #8b7f75;
+	color: var(--white);
 	max-height: 0;
 	overflow: hidden;
 	transition: all 0.5;
+	font-size: 1.6rem;
 }
 .content.show {
 	height: auto;
-	max-height: 9999px;
+	max-height: 999rem;
 	transition: all 0.5s;
 }

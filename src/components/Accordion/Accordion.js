@@ -7,7 +7,6 @@ const Accordion = () => {
 		if (selected === i) {
 			return setSelected(null);
 		}
-
 		setSelected(i);
 	};
 	return (
@@ -21,6 +20,7 @@ const Accordion = () => {
 						</div>
 						<div className={selected === i ? "content show" : "content"}>
 							{item.answer}
+							<div>Samir</div>
 						</div>
 					</div>
 				))}

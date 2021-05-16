@@ -1,15 +1,14 @@
 export const Data = [
 	{
-		question:
-			"what do you call awhat do you call awhat do you call awhat do you call awhat do you call a",
+		question: "Vue.js Developer",
 		answer: `samir`,
 	},
 	{
-		question: "asdfasfasdfall a",
+		question: "Node.js Developer",
 		answer: "answer 2",
 	},
 	{
-		question: "whatfasdfa you call a",
+		question: "Full Stack Developer",
 		answer: "answer3",
 	},
 ];

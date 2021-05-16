@@ -5,7 +5,6 @@
 		position: relative;
 		img {
 			width: 100%;
-			// filter: blur(0.2rem);
 		}
 		h2 {
 			position: absolute;
@@ -30,11 +29,13 @@
 	.careers__job-offers {
 		h4 {
 			font-size: 3.2rem;
+			color: var(--text-color);
+			margin-bottom: 2rem;
 		}
 	}
 	.careers__send-cv {
 		text-align: center;
-		color: var(--text-color2);
+		color: var(--text-color);
 		h4 {
 			font-size: 2rem;
 		}

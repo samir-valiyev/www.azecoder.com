@@ -1,6 +1,8 @@
 import React from "react";
 import careers from "../../../images/career.jpg";
 import Accordion from "../../Accordion/Accordion";
+import Button from "../../Buttons/Button";
+
 const Careers = () => {
 	return (
 		<div className="careers">
@@ -23,7 +25,7 @@ const Careers = () => {
 			<div className="careers__send-cv">
 				<h4>These aren’t the job offers you’re looking for?</h4>
 				<p>Boost your career with us</p>
-				<button>SEND YOUR CV</button>
+				<Button name="SEND CV" />
 			</div>
 		</div>
 	);

@@ -1,13 +1,20 @@
 .navbar {
-	background-color: var(--white);
-	height: 5rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	font-size: 1.6rem;
-	font-family: $font-poppins;
-	position: relative;
-	margin-top: 2rem;
+	position: sticky;
+	top: 0.5rem;
+
+	.navbar__items {
+		position: relative;
+		background-color: var(--white);
+		height: 5rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 1.6rem;
+		font-family: $font-poppins;
+		margin-top: 2rem;
+		z-index: 100;
+		@include box-shadow;
+	}
 
 	&__logo {
 		color: var(--text-color);

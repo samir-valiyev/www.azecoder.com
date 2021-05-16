@@ -1,5 +1,5 @@
 .navbar__btn {
-	padding: 0.8rem 2rem;
+	padding: 0.5rem 2rem;
 	border-radius: 0.2rem;
 	outline: none;
 	border: none;
@@ -10,7 +10,7 @@
 	border: 0.3rem solid;
 	border-image-slice: 1;
 	border-image-source: linear-gradient(to left, var(--primary-color), var(--secondary-color));
-	margin-right: 10rem;
+	// margin-right: 10rem;
 	font-family: $font-poppins;
 	text-transform: uppercase;
 

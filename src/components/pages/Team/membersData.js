@@ -3,8 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 export const membersData = [
 	{
 		id: uuidv4(),
-		image:
-			"https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+		image: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
 		name: "Samir Valiyev",
 		profession: "Front End Developer",
 		github: "https://github.com/samirvaliyev",
@@ -14,8 +13,7 @@ export const membersData = [
 	},
 	{
 		id: uuidv4(),
-		image:
-			"https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+		image: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
 		name: "Hacımurad Əzizov",
 		profession: "Front End Developer",
 		github: "https://github.com/Hacimurad",
@@ -25,8 +23,7 @@ export const membersData = [
 	},
 	{
 		id: uuidv4(),
-		image:
-			"https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+		image: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
 		name: "Fidan Nağıyeva",
 		profession: "Front End Developer",
 		github: "https://github.com/fynaghk",
@@ -36,8 +33,7 @@ export const membersData = [
 	},
 	{
 		id: uuidv4(),
-		image:
-			"https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+		image: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
 		name: "Turan Balayev",
 		profession: "Front End Developer",
 		github: "https://github.com/turanbalayev",
@@ -47,8 +43,7 @@ export const membersData = [
 	},
 	{
 		id: uuidv4(),
-		image:
-			"https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+		image: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
 		name: "Cavid Əliyev",
 		profession: "Front End Developer",
 		github: "https://github.com/cavid-aliyev",
@@ -58,8 +53,7 @@ export const membersData = [
 	},
 	{
 		id: uuidv4(),
-		image:
-			"https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+		image: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
 		name: "Elvin Yeka",
 		profession: "Front End Developer",
 		github: "https://github.com/elvinyeka",
