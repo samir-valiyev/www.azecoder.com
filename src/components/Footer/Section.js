@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Section = () => {
@@ -46,7 +45,7 @@ const Section = () => {
 						<li>Product Design</li>
 					</Link>
 					<Link to="/">
-						<li>Project Managementt</li>
+						<li>Project Management</li>
 					</Link>
 				</ul>
 			</div>
@@ -63,7 +62,7 @@ const Section = () => {
 						<li>Logistics</li>
 					</Link>
 					<Link to="/">
-						<li>Fintech</li>
+						<li>Industry</li>
 					</Link>
 				</ul>
 			</div>

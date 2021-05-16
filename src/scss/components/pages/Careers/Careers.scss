@@ -1,0 +1,47 @@
+.careers {
+	font-family: $font-poppins;
+	margin-top: $mt;
+	.careers__main {
+		position: relative;
+		img {
+			width: 100%;
+			// filter: blur(0.2rem);
+		}
+		h2 {
+			position: absolute;
+			top: 10rem;
+			left: 2rem;
+			display: flex;
+			flex-direction: column;
+			font-size: 6.4rem;
+			color: var(--black);
+			z-index: 1;
+		}
+		p {
+			position: absolute;
+			z-index: 1;
+			font-size: 2rem;
+			top: 30rem;
+			left: 2rem;
+			color: var(--black);
+			width: 40%;
+		}
+	}
+	.careers__job-offers {
+		h4 {
+			font-size: 3.2rem;
+		}
+	}
+	.careers__send-cv {
+		text-align: center;
+		color: var(--text-color2);
+		h4 {
+			font-size: 2rem;
+		}
+
+		p {
+			font-size: 1.6rem;
+			padding: 1rem;
+		}
+	}
+}
