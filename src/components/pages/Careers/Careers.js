@@ -7,15 +7,12 @@ const Careers = () => {
 	return (
 		<div className="careers">
 			<div className="careers__main">
-				<h2>
-					<span>Career at</span>
-					<span>AzeCoder House</span>
-				</h2>
-
-				<p>
-					We're always looking for the talents and professionals to join our winning team.
-				</p>
-
+				<div className="careers__text-area">
+					<h2>
+						<span>Career at</span>
+						<span>AzeCoder House</span>
+					</h2>
+				</div>
 				<img src={careers} alt="careers" />
 			</div>
 			<div className="careers__job-offers">

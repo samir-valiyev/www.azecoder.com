@@ -1,0 +1,45 @@
+.form {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: $font-poppins;
+
+	& > input,
+	textarea {
+		width: 500px;
+		padding: 2rem;
+		border-radius: 0.5rem;
+		margin-bottom: 2rem;
+		border: 1px solid lightgray;
+		background: var(--white);
+		font-size: 1.6rem;
+		color: var(--black);
+		outline: none;
+	}
+
+	& > input:focus,
+	textarea:focus {
+		border: 1px solid var(--primary-color);
+	}
+
+	& > textarea {
+		height: 150px;
+		max-width: 100%;
+		min-height: 20rem;
+		font-family: $font-poppins;
+	}
+
+	& > button {
+		padding: 2rem;
+		border: none;
+		background-color: var(--primary-color);
+		font-weight: 500;
+		font-size: 2rem;
+		border-radius: 3px;
+		color: #fff;
+		cursor: pointer;
+		transition: 0.2s ease-in-out;
+		margin-top: 10px;
+	}
+}

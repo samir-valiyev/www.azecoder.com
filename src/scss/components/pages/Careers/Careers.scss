@@ -6,6 +6,7 @@
 		img {
 			width: 100%;
 		}
+
 		h2 {
 			position: absolute;
 			top: 10rem;
@@ -13,17 +14,11 @@
 			display: flex;
 			flex-direction: column;
 			font-size: 6.4rem;
-			color: var(--black);
+			color: var(--white);
 			z-index: 1;
-		}
-		p {
-			position: absolute;
-			z-index: 1;
-			font-size: 2rem;
-			top: 30rem;
-			left: 2rem;
-			color: var(--black);
-			width: 40%;
+			background-color: rgba(0, 0, 0, 0.466);
+			border-radius: 2rem;
+			padding: 2rem;
 		}
 	}
 	.careers__job-offers {
