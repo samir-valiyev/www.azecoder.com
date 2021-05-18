@@ -13,7 +13,7 @@
 		font-family: $font-poppins;
 		margin-top: 2rem;
 		z-index: 100;
-		@include box-shadow;
+		border: 0.1rem solid var(--text-color2);
 	}
 
 	&__logo {

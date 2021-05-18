@@ -1,9 +1,30 @@
 import { v4 as uuidv4 } from "uuid";
+import Samir from "../../../images/team/samirvaliyev.jpg";
+import Hacimurad from "../../../images/team/hacimurad.jpg";
+import Fidan from "../../../images/team/fidan.jpg";
+import Turan from "../../../images/team/turan.jpg";
+import Cavid from "../../../images/team/cavid.jpg";
+import Elvin from "../../../images/team/elvin.jpg";
+import Musa from "../../../images/team/musa.jpg";
+import Elchin from "../../../images/team/elchin.jpg";
+import Arzu from "../../../images/team/arzu.jpg";
+import Nizam from "../../../images/team/nizam.jpg";
+import Lala from "../../../images/team/lala.jpg";
+import Murad from "../../../images/team/murad.jpg";
+import Qafar from "../../../images/team/qafar.jpg";
+import Ayla from "../../../images/team/ayla.jpg";
+import ArzuM from "../../../images/team/arzu-m.jpg";
+import Nuray from "../../../images/team/nuray.jpg";
+import Orxan from "../../../images/team/orxan.jpg";
+import Rasim from "../../../images/team/rasim.jpg";
+import Azar from "../../../images/team/azar.jpg";
+import Nizami from "../../../images/team/nizami.jpg";
+import Aynura from "../../../images/team/aynura.jpg";
 
 export const membersData = [
 	{
 		id: uuidv4(),
-		image: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+		image: `${Samir}`,
 		name: "Samir Valiyev",
 		profession: "Front End Developer",
 		github: "https://github.com/samirvaliyev",
@@ -13,8 +34,8 @@ export const membersData = [
 	},
 	{
 		id: uuidv4(),
-		image: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
-		name: "Hacımurad Əzizov",
+		image: `${Hacimurad}`,
+		name: "Hacimurad Azizov",
 		profession: "Front End Developer",
 		github: "https://github.com/Hacimurad",
 		linkedin: "#",
@@ -23,9 +44,9 @@ export const membersData = [
 	},
 	{
 		id: uuidv4(),
-		image: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
-		name: "Fidan Nağıyeva",
-		profession: "Front End Developer",
+		image: `${Fidan}`,
+		name: "Fidan Nagiyeva",
+		profession: "MERN Developer",
 		github: "https://github.com/fynaghk",
 		linkedin: "#",
 		twitter: "#",
@@ -33,7 +54,7 @@ export const membersData = [
 	},
 	{
 		id: uuidv4(),
-		image: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+		image: `${Turan}`,
 		name: "Turan Balayev",
 		profession: "Front End Developer",
 		github: "https://github.com/turanbalayev",
@@ -43,9 +64,9 @@ export const membersData = [
 	},
 	{
 		id: uuidv4(),
-		image: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
-		name: "Cavid Əliyev",
-		profession: "Front End Developer",
+		image: `${Cavid}`,
+		name: "Cavid Aliyev",
+		profession: "MERN Stack Developer",
 		github: "https://github.com/cavid-aliyev",
 		linkedin: "#",
 		twitter: "#",
@@ -53,12 +74,162 @@ export const membersData = [
 	},
 	{
 		id: uuidv4(),
-		image: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+		image: `${Elvin}`,
 		name: "Elvin Yeka",
 		profession: "Front End Developer",
 		github: "https://github.com/elvinyeka",
 		linkedin: "#",
 		twitter: "#",
 		facebook: "https://www.facebook.com/profile.php?id=100009894554730/",
+	},
+	{
+		id: uuidv4(),
+		image: `${Musa}`,
+		name: "Musa Mahmudov",
+		profession: "Middle Javascript Developer",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
+	},
+	{
+		id: uuidv4(),
+		image: `${Elchin}`,
+		name: "Elchin Huseynov",
+		profession: "Middle Javascript Developer",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
+	},
+	{
+		id: uuidv4(),
+		image: `${Arzu}`,
+		name: "Arzu Medetova",
+		profession: "Middle Javascript Developer",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
+	},
+	{
+		id: uuidv4(),
+		image: `${Nizam}`,
+		name: "Nizam Huseynov",
+		profession: "Project Manager",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
+	},
+	{
+		id: uuidv4(),
+		image: `${Lala}`,
+		name: "Lala Masimova",
+		profession: "Project Manager",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
+	},
+	{
+		id: uuidv4(),
+		image: `${Murad}`,
+		name: "Murad Huseyn",
+		profession: "Senior Javascript Developer",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
+	},
+	{
+		id: uuidv4(),
+		image: `${Qafar}`,
+		name: "Qafar Muradov",
+		profession: "IT Recruitment Researcher",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
+	},
+	{
+		id: uuidv4(),
+		image: `${Ayla}`,
+		name: "Ayla Mammadova",
+		profession: "Accountant",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
+	},
+	{
+		id: uuidv4(),
+		image: `${ArzuM}`,
+		name: "Arzu Mahmudov",
+		profession: "UI/UX Designer",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
+	},
+	{
+		id: uuidv4(),
+		image: `${Nuray}`,
+		name: "Nuray Ismayilova",
+		profession: "Sales Assistant",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
+	},
+	{
+		id: uuidv4(),
+		image: `${Orxan}`,
+		name: "Orxan Rzayev",
+		profession: "IT Recruitment Researcher",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
+	},
+	{
+		id: uuidv4(),
+		image: `${Rasim}`,
+		name: "Rasim Mammadov",
+		profession: "Middle Javascript Developer",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
+	},
+	{
+		id: uuidv4(),
+		image: `${Azar}`,
+		name: "Azar Qasimov",
+		profession: "Senior Front End Developer",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
+	},
+	{
+		id: uuidv4(),
+		image: `${Nizami}`,
+		name: "Nizami Mustafayev",
+		profession: "Sales Assistant",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
+	},
+	{
+		id: uuidv4(),
+		image: `${Aynura}`,
+		name: "Aynura Karimova",
+		profession: "HR",
+		github: "#",
+		linkedin: "#",
+		twitter: "#",
+		facebook: "#",
 	},
 ];
