@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Data } from "./Data";
-
+import Button from "../Buttons/Button";
+import { Link } from "react-router-dom";
 const Accordion = () => {
 	const [selected, setSelected] = useState(null);
 	const toggle = (i) => {
@@ -20,7 +21,16 @@ const Accordion = () => {
 						</div>
 						<div className={selected === i ? "content show" : "content"}>
 							{item.answer}
-							<div>Samir</div>
+							<div className="vacancy__buttons">
+								<span>
+									<Button name="Share" />
+								</span>
+								<span>
+									<Link to="/contact-us">
+										<Button name="Apply" />
+									</Link>
+								</span>
+							</div>
 						</div>
 					</div>
 				))}

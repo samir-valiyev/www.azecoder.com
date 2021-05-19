@@ -13,7 +13,7 @@
 	// margin-right: 10rem;
 	font-family: $font-poppins;
 	text-transform: uppercase;
-
+	margin: 0.5rem;
 	&:hover {
 		@include bgcHover;
 		color: var(--white);

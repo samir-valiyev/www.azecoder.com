@@ -3,21 +3,23 @@
 }
 
 .item {
-	background-color: var(--primary-color);
+	background-color: #f2f2f2;
 	margin-bottom: 5px;
 	padding: 1rem 2rem;
+	border: 1px solid var(--primary-color);
 }
 
 .title {
-	color: var(--white);
+	color: black;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	cursor: pointer;
+	font-size: 1.6rem;
 }
 
 .content {
-	color: var(--white);
+	color: black;
 	max-height: 0;
 	overflow: hidden;
 	transition: all 0.5;
@@ -27,4 +29,9 @@
 	height: auto;
 	max-height: 999rem;
 	transition: all 0.5s;
+}
+
+.vacancy__buttons {
+	display: flex;
+	justify-content: flex-end;
 }

@@ -4,7 +4,8 @@
 
 	.navbar__items {
 		position: relative;
-		background-color: var(--white);
+		background-color: rgba(151, 150, 150, 0.466);
+		border-radius: 2rem;
 		height: 5rem;
 		display: flex;
 		justify-content: space-between;
@@ -13,7 +14,7 @@
 		font-family: $font-poppins;
 		margin-top: 2rem;
 		z-index: 100;
-		border: 0.1rem solid var(--text-color2);
+		padding-right: 2rem;
 	}
 
 	&__logo {

@@ -1,24 +1,27 @@
 .careers {
 	font-family: $font-poppins;
 	margin-top: $mt;
+
 	.careers__main {
-		position: relative;
 		img {
 			width: 100%;
+			height: auto;
 		}
-
-		h2 {
-			position: absolute;
-			top: 10rem;
-			left: 2rem;
-			display: flex;
-			flex-direction: column;
-			font-size: 6.4rem;
-			color: var(--white);
-			z-index: 1;
-			background-color: rgba(0, 0, 0, 0.466);
-			border-radius: 2rem;
-			padding: 2rem;
+		.careers__text-area {
+			position: relative;
+			h2 {
+				position: absolute;
+				top: 10rem;
+				left: 2rem;
+				display: flex;
+				flex-direction: column;
+				font-size: 6.4rem;
+				color: var(--white);
+				z-index: 1;
+				background-color: rgba(0, 0, 0, 0.466);
+				border-radius: 2rem;
+				padding: 2rem;
+			}
 		}
 	}
 	.careers__job-offers {

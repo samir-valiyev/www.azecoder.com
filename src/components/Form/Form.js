@@ -5,6 +5,7 @@ const Form = () => {
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
 	const [message, setMessage] = useState("");
+	const [file, setFile] = useState("");
 
 	const [loader, setLoader] = useState(false);
 
@@ -17,6 +18,7 @@ const Form = () => {
 				name: name,
 				email: email,
 				message: message,
+				file: file,
 			})
 			.then(() => {
 				setLoader(false);
@@ -30,6 +32,7 @@ const Form = () => {
 		setName("");
 		setEmail("");
 		setMessage("");
+		setFile("");
 	};
 
 	return (
@@ -44,6 +47,8 @@ const Form = () => {
 				placeholder="Message"
 				value={message}
 				onChange={(e) => setMessage(e.target.value)}></textarea>
+			<label>upload cv</label>
+			<input type="file" />
 
 			<button type="submit" style={{ background: loader ? "#ccc" : "#5900ff" }}>
 				SEND MESSAGE

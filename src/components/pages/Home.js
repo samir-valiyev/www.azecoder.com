@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../../images/hero-1.png";
 import MainTechnologies from "../MainTechnologies/MainTechnologies";
+import Video from "../Video/Video";
 import Services from "./Services/Services";
 
 function Home() {
@@ -8,6 +9,9 @@ function Home() {
 		<>
 			<div className="home main__container">
 				<div className="main__texts-area">
+					<div>
+						<Video />
+					</div>
 					<h1>
 						<span>Let's Build</span>
 						<span>Something.</span>
