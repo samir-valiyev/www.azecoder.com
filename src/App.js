@@ -9,10 +9,12 @@ import Careers from "./components/pages/Careers/Careers";
 import About from "./components/pages/About/About";
 import ContactUs from "./components/pages/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
 	return (
 		<Router>
+			<ScrollToTop />
 			<Navbar />
 			<Switch>
 				<Route path="/" exact component={Home} />
