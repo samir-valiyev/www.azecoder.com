@@ -15,6 +15,7 @@ function Navbar() {
 					<Link to="/" className="navbar__logo" onClick={closeMobileMenu}>
 						<img src={logo} className="navbar__logo__azecoder" alt="AzeCoder Logo" />
 					</Link>
+
 					<div className="navbar__menu-icon" onClick={handleClick}>
 						<i className={click ? "fas fa-times" : "fas fa-bars"} />
 					</div>

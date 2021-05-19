@@ -3,7 +3,7 @@
 	top: 0.5rem;
 
 	.navbar__items {
-		position: relative;
+		// position: relative;
 		background-color: rgba(151, 150, 150, 0.466);
 		border-radius: 2rem;
 		height: 5rem;
@@ -68,31 +68,36 @@
 
 .fa-bars {
 	color: var(--black);
-	font-size: 2rem;
+}
+
+.fa-times {
+	color: var(--crimson);
 }
 
 @media screen and (max-width: 992px) {
-	.NavbarItems {
+	.navbar__items {
 		position: relative;
 	}
 
 	.navbar {
 		&__nav-menu {
+			position: absolute;
+			top: 7rem;
+			left: -103%;
 			display: flex;
 			flex-direction: column;
 			width: 100%;
 			height: 80vh;
-			position: absolute;
-			top: 7rem;
-			left: -101%;
+
 			opacity: 1;
 			transition: all 0.5s ease;
 			@include box-shadow;
 		}
 		&__light-dark-mode {
 			position: absolute;
-			top: 2rem;
-			left: 1rem;
+			top: 50%;
+			left: 5%;
+			transform: translate(-50%, -50%);
 		}
 
 		&__nav-menu.active {
@@ -131,9 +136,9 @@
 		&__menu-icon {
 			display: block;
 			position: absolute;
-			top: 0rem;
-			right: 0;
-			transform: translate(-100%, 60%);
+			top: 50%;
+			right: 3%;
+			transform: translate(-50%, -50%);
 			font-size: 2rem;
 			cursor: pointer;
 		}
@@ -159,9 +164,15 @@
 			display: none;
 		}
 	}
+}
 
-	.fa-times {
-		color: var(--crimson);
-		font-size: 2rem;
+@media screen and (max-width: 576px) {
+	.navbar {
+		.navbar__light-dark-mode {
+			position: absolute;
+			top: 50%;
+			left: 10%;
+			transform: translate(-50%, -50%);
+		}
 	}
 }
