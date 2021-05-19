@@ -3,14 +3,14 @@
 }
 
 .item {
-	background-color: #f2f2f2;
+	background-color: var(--vacancy-bgc);
 	margin-bottom: 5px;
 	padding: 1rem 2rem;
 	border: 1px solid var(--primary-color);
 }
 
 .title {
-	color: black;
+	color: var(--black);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -19,7 +19,7 @@
 }
 
 .content {
-	color: black;
+	color: var(--black);
 	max-height: 0;
 	overflow: hidden;
 	transition: all 0.5;
@@ -34,4 +34,11 @@
 .vacancy__buttons {
 	display: flex;
 	justify-content: flex-end;
+}
+
+.fa-minus {
+	color: var(--crimson);
+}
+.fa-plus {
+	color: var(--primary-color);
 }
