@@ -9,8 +9,8 @@ export const Data = [
 	},
 	{
 		id: uuidv4(),
-		i: "fas fa-hourglass-half",
-		h5: "We’ll get back to you in 24 hours",
+		i: "far fa-file-alt",
+		h5: "We'll work together on possible scenarios",
 		p: "for the software development strategy in sync with your goals.",
 	},
 	{
