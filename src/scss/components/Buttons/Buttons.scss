@@ -7,7 +7,7 @@
 	color: var(--black);
 	background-color: var(--white);
 	cursor: pointer;
-	border: 0.3rem solid;
+	border: 0.2rem solid;
 	border-image-slice: 1;
 	border-image-source: linear-gradient(to left, var(--primary-color), var(--secondary-color));
 	font-family: $font-poppins;
@@ -36,4 +36,25 @@
 .fa-moon {
 	cursor: pointer;
 	color: var(--moon-color);
+}
+
+@media screen and (max-width: 576px) {
+	.navbar__btn {
+		padding: 0rem 2rem;
+		font-size: 1.4rem;
+		color: var(--black);
+		background-color: var(--white);
+		cursor: pointer;
+		border: 0.2rem solid;
+		border-image-slice: 1;
+		border-image-source: linear-gradient(to left, var(--primary-color), var(--secondary-color));
+		font-family: $font-poppins;
+		text-transform: uppercase;
+		margin: 0.5rem;
+		&:hover {
+			@include bgcHover;
+			color: var(--white);
+			transition: all 0.1s ease-out;
+		}
+	}
 }

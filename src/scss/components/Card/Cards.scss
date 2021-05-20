@@ -36,3 +36,42 @@
 		}
 	}
 }
+
+@media screen and (max-width: 576px) {
+	.services__cards {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+		.services__card {
+			max-width: 25rem;
+			height: auto;
+			@include box-shadow;
+			@include flex;
+			flex-direction: column;
+			font-family: $font-poppins;
+			margin: 1rem;
+
+			.i-top {
+				margin-top: 2rem;
+				font-size: 4rem;
+			}
+
+			h4 {
+				font-size: 1.6rem;
+				color: var(--text-color);
+				margin: 1rem 0;
+				text-align: center;
+			}
+
+			p {
+				margin: 0 2rem 2rem 2rem;
+				font-size: 1.4rem;
+			}
+			.i-bottom {
+				font-size: 2rem;
+				margin-bottom: 2rem;
+			}
+		}
+	}
+}

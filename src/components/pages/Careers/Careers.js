@@ -13,7 +13,6 @@ const Careers = () => {
 						<span>Career at</span>
 						<span>AzeCoder House</span>
 					</h2>
-					<Button name="JOIN US" />
 				</div>
 				<img src={careers} alt="careers" />
 			</div>

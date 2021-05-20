@@ -37,8 +37,6 @@ const Form = () => {
 
 	return (
 		<form className="form" onSubmit={handleSubmit}>
-			<h3>Contact Us </h3>
-
 			<input placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
 
 			<input placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />

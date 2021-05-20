@@ -12,10 +12,7 @@ function Home() {
 					<div>
 						<Video />
 					</div>
-					<h1>
-						<span>Let's Build</span>
-						<span>Something.</span>
-					</h1>
+					<h1>Let's Build Something.</h1>
 					<p>
 						<span>We work with the most innovation solutions on the </span>
 						<span>market to help you get the best results</span>

@@ -16,7 +16,7 @@
 				display: flex;
 				flex-direction: column;
 				font-size: 6.4rem;
-				color: var(--white);
+				color: #fff;
 				z-index: 1;
 				background-color: rgba(0, 0, 0, 0.466);
 				border-radius: 2rem;
@@ -41,6 +41,74 @@
 		p {
 			font-size: 1.6rem;
 			padding: 1rem;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.careers {
+		margin-top: 2rem;
+
+		.careers__main {
+			img {
+				width: 100%;
+				height: auto;
+			}
+			.careers__text-area {
+				position: relative;
+				h2 {
+					position: absolute;
+					top: 4rem;
+					left: 2rem;
+					font-size: 3rem;
+					padding: 1.5rem;
+				}
+			}
+		}
+		.careers__job-offers {
+			h4 {
+				font-size: 2.2rem;
+				color: var(--text-color);
+				margin-bottom: 2rem;
+			}
+		}
+		.careers__send-cv {
+			text-align: center;
+			h4 {
+				font-size: 1.8rem;
+			}
+
+			p {
+				font-size: 1.4rem;
+				padding: 1rem;
+			}
+		}
+	}
+}
+@media screen and (max-width: 576px) {
+	.careers {
+		margin-top: 2rem;
+
+		.careers__main {
+			img {
+				width: 100%;
+				height: auto;
+			}
+			.careers__text-area {
+				position: relative;
+				h2 {
+					position: absolute;
+					top: 2rem;
+					left: 2rem;
+					font-size: 2rem;
+				}
+			}
+		}
+
+		.careers__job-offers {
+			h4 {
+				font-size: 1.6rem;
+			}
 		}
 	}
 }

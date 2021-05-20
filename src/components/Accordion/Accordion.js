@@ -14,8 +14,8 @@ const Accordion = () => {
 		<div>
 			<div className="accordion">
 				{Data.map((item, i) => (
-					<div className="item">
-						<div className="title" onClick={() => toggle(i)}>
+					<div className="accordion__item">
+						<div className="accordion__title" onClick={() => toggle(i)}>
 							<h2>{item.question}</h2>
 							<span>
 								{selected === i ? (

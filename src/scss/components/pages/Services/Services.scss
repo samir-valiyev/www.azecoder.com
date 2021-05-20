@@ -7,3 +7,11 @@
 		color: var(--text-color2);
 	}
 }
+
+@media screen and (max-width: 576px) {
+	.services {
+		p {
+			font-size: 1.4rem;
+		}
+	}
+}

@@ -7,9 +7,8 @@ export default function About() {
 			<div className="about__texts">
 				<h2>About Us</h2>
 				<p className="about__text">
-					Quality Everything we do has the commitment of a well trained <br />
-					and motivated team. Experience Focused on results we seek to <br />
-					raise the level of our customers.
+					Quality Everything we do has the commitment of a well trained and motivated
+					team. Experience Focused on results we seek to raise the level of our customers.
 				</p>
 				<div className="about__properties">
 					<div className="about__property">

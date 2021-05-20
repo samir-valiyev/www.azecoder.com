@@ -20,6 +20,7 @@ body {
 .team,
 .about,
 .contact-us,
+.store,
 .main-technologies,
 .careers__send-cv,
 .careers__job-offers {
@@ -33,4 +34,11 @@ h3 {
 	text-align: center;
 	margin-bottom: 6rem;
 	color: var(--primary-color);
+}
+
+@media screen and (max-width: 576px) {
+	h3 {
+		font-size: 3rem;
+		margin-bottom: 2rem;
+	}
 }
