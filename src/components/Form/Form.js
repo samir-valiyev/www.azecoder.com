@@ -45,7 +45,9 @@ const Form = () => {
 				placeholder="Message"
 				value={message}
 				onChange={(e) => setMessage(e.target.value)}></textarea>
-			<label>upload cv</label>
+			<label>
+				upload cv or send to <strong>info@azecoder.com</strong>
+			</label>
 			<input type="file" />
 
 			<button type="submit" style={{ background: loader ? "#ccc" : "#5900ff" }}>

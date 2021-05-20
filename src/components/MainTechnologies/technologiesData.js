@@ -3,11 +3,19 @@ import Javascript from "../../images/technologies/javascript.svg";
 import React from "../../images/technologies/react.svg";
 import Vue from "../../images/technologies/vue.png";
 import Angular from "../../images/technologies/angular.svg";
-import Node from "../../images/technologies/nodejs.svg";
+import NodeExpress from "../../images/technologies/nodejs-expressjs.svg";
 import MongoDB from "../../images/technologies/mongodb.svg";
 import Typescript from "../../images/technologies/typescript.svg";
 import ReactNative from "../../images/technologies/reactNative.svg";
 import Redux from "../../images/technologies/redux.png";
+import Graphql from "../../images/technologies/graph.png";
+import Android from "../../images/technologies/android.svg";
+import Ios from "../../images/technologies/ios.svg";
+import Python from "../../images/technologies/python.svg";
+import Flask from "../../images/technologies/flask.svg";
+import Mysql from "../../images/technologies/mysql.svg";
+import Php from "../../images/technologies/php.svg";
+import Docker from "../../images/technologies/docker.svg";
 
 export const data = [
 	{
@@ -33,8 +41,8 @@ export const data = [
 	},
 	{
 		id: uuidv4(),
-		image: `${Node}`,
-		name: "node.js",
+		image: `${NodeExpress}`,
+		name: "nodejs and expressjs",
 	},
 	{
 		id: uuidv4(),
@@ -55,5 +63,45 @@ export const data = [
 		id: uuidv4(),
 		image: `${Redux}`,
 		name: "redux",
+	},
+	{
+		id: uuidv4(),
+		image: `${Android}`,
+		name: "android",
+	},
+	{
+		id: uuidv4(),
+		image: `${Ios}`,
+		name: "ios",
+	},
+	{
+		id: uuidv4(),
+		image: `${Docker}`,
+		name: "docker",
+	},
+	{
+		id: uuidv4(),
+		image: `${Flask}`,
+		name: "flask",
+	},
+	{
+		id: uuidv4(),
+		image: `${Graphql}`,
+		name: "graphql",
+	},
+	{
+		id: uuidv4(),
+		image: `${Mysql}`,
+		name: "mysql",
+	},
+	{
+		id: uuidv4(),
+		image: `${Php}`,
+		name: "php",
+	},
+	{
+		id: uuidv4(),
+		image: `${Python}`,
+		name: "python",
 	},
 ];

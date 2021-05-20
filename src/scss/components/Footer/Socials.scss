@@ -3,9 +3,24 @@
 
 	@include flex;
 	a {
-		color: var(--black);
+		// color: var(--black);
 		i {
 			margin: 1.5rem 1.5rem 0 0;
+		}
+		.fa-facebook-square {
+			color: var(--facebook);
+		}
+		.fa-twitter-square {
+			color: var(--twitter);
+		}
+		.fa-youtube-square {
+			color: var(--youtube);
+		}
+		.fa-linkedin {
+			color: var(--linkedin);
+		}
+		.fa-github-square {
+			color: var(--github);
 		}
 	}
 }
