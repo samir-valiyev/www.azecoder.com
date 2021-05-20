@@ -1,14 +1,14 @@
 import { v4 as uuidv4 } from "uuid";
 import Javascript from "../../images/technologies/javascript.svg";
 import React from "../../images/technologies/react.svg";
-import Vue from "../../images/technologies/vue.png";
+import Vue from "../../images/technologies/vue.svg";
 import Angular from "../../images/technologies/angular.svg";
 import NodeExpress from "../../images/technologies/nodejs-expressjs.svg";
 import MongoDB from "../../images/technologies/mongodb.svg";
 import Typescript from "../../images/technologies/typescript.svg";
 import ReactNative from "../../images/technologies/reactNative.svg";
-import Redux from "../../images/technologies/redux.png";
-import Graphql from "../../images/technologies/graph.png";
+import Redux from "../../images/technologies/redux.svg";
+import Graphql from "../../images/technologies/graphql.svg";
 import Android from "../../images/technologies/android.svg";
 import Ios from "../../images/technologies/ios.svg";
 import Python from "../../images/technologies/python.svg";
