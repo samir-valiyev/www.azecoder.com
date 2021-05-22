@@ -10,6 +10,7 @@ import About from "./components/pages/About/About";
 import ContactUs from "./components/pages/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import Error from "./components/pages/Error";
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 				<Route path="/careers" component={Careers} />
 				<Route path="/about" component={About} />
 				<Route path="/contact-us" component={ContactUs} />
+				<Route component={Error} />
 			</Switch>
 			<Footer />
 		</Router>
