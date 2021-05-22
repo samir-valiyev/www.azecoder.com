@@ -1,5 +1,6 @@
 {
   "name": "react.js-starter-folders",
+  "homepage":"http://azecoder.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

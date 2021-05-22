@@ -21,10 +21,7 @@ const ContactInformation = () => {
 						</div>
 					))}
 
-					<div className="cont-info__contact">
-						<i className="fab fa-whatsapp"></i>
-						<span>+994 50 700 14 07</span>
-					</div>
+					
 					<div className="cont-info__contact">
 						<i className="far fa-envelope"></i>
 						<span>info@azecoder.com</span>

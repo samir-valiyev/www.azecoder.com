@@ -14,8 +14,8 @@ function Home() {
 					</div>
 					<h1>Let's Build Something.</h1>
 					<p>
-						<span>We work with the most innovation solutions on the </span>
-						<span>market to help you get the best results</span>
+						We work with the most innovation solutions on the market to help you get the
+						best results
 					</p>
 				</div>
 				<div className="main__image">
